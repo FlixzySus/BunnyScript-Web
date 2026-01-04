@@ -1,72 +1,36 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630">
   <defs>
-    <linearGradient id="ogGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#10b981"/>
-      <stop offset="100%" style="stop-color:#06d6a0"/>
+    <linearGradient id="logoG" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
-    <radialGradient id="ogGlow1" cx="20%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#10b981;stop-opacity:0.2"/>
-      <stop offset="100%" style="stop-color:#10b981;stop-opacity:0"/>
-    </radialGradient>
-    <radialGradient id="ogGlow2" cx="80%" cy="50%" r="50%">
-      <stop offset="0%" style="stop-color:#06d6a0;stop-opacity:0.15"/>
-      <stop offset="100%" style="stop-color:#06d6a0;stop-opacity:0"/>
+    <radialGradient id="bgG" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#10b981" stop-opacity="0"/>
     </radialGradient>
   </defs>
-  
-  <!-- Background -->
   <rect width="100%" height="100%" fill="#0d1117"/>
-  
-  <!-- Glows -->
-  <ellipse cx="240" cy="315" rx="600" ry="400" fill="url(#ogGlow1)"/>
-  <ellipse cx="960" cy="315" rx="600" ry="400" fill="url(#ogGlow2)"/>
-  
-  <!-- Grid pattern -->
-  <g opacity="0.1" stroke="#10b981" stroke-width="1">
-    <line x1="0" y1="157" x2="1200" y2="157"/>
-    <line x1="0" y1="315" x2="1200" y2="315"/>
-    <line x1="0" y1="473" x2="1200" y2="473"/>
-    <line x1="300" y1="0" x2="300" y2="630"/>
-    <line x1="600" y1="0" x2="600" y2="630"/>
-    <line x1="900" y1="0" x2="900" y2="630"/>
+  <ellipse cx="600" cy="315" rx="500" ry="350" fill="url(#bgG)"/>
+  <g transform="translate(520, 180)">
+    <ellipse cx="30" cy="25" rx="12" ry="35" fill="url(#logoG)" transform="rotate(-12 30 25)"/>
+    <ellipse cx="70" cy="25" rx="12" ry="35" fill="url(#logoG)" transform="rotate(12 70 25)"/>
+    <circle cx="50" cy="65" r="35" fill="url(#logoG)"/>
+    <circle cx="40" cy="58" r="6" fill="#0d1117"/>
+    <circle cx="60" cy="58" r="6" fill="#0d1117"/>
+    <ellipse cx="50" cy="72" rx="5" ry="3" fill="#0d1117"/>
   </g>
-  
-  <!-- Logo Bunny -->
-  <g transform="translate(480, 180)">
-    <!-- Left Ear -->
-    <ellipse cx="40" cy="30" rx="15" ry="45" fill="url(#ogGrad)" transform="rotate(-15 40 30)"/>
-    <!-- Right Ear -->
-    <ellipse cx="90" cy="30" rx="15" ry="45" fill="url(#ogGrad)" transform="rotate(15 90 30)"/>
-    <!-- Head -->
-    <circle cx="65" cy="80" r="45" fill="url(#ogGrad)"/>
-    <!-- Left Eye -->
-    <circle cx="50" cy="72" r="8" fill="#0d1117"/>
-    <circle cx="52" cy="70" r="3" fill="#fff"/>
-    <!-- Right Eye -->
-    <circle cx="80" cy="72" r="8" fill="#0d1117"/>
-    <circle cx="82" cy="70" r="3" fill="#fff"/>
-    <!-- Nose -->
-    <ellipse cx="65" cy="92" rx="6" ry="4" fill="#0d1117"/>
+  <text x="600" y="360" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="56" font-weight="700" fill="#f0f6fc">BunnyScript</text>
+  <text x="600" y="410" text-anchor="middle" font-family="Inter, system-ui, sans-serif" font-size="22" fill="#8b949e">Lua Script for Cherax</text>
+  <g transform="translate(470, 450)">
+    <rect width="80" height="28" rx="14" fill="#21262d"/>
+    <text x="40" y="19" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#10b981">GTA V</text>
   </g>
-  
-  <!-- Text -->
-  <text x="600" y="380" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="72" font-weight="800" fill="#ffffff">BunnyScript</text>
-  <text x="600" y="440" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="28" font-weight="500" fill="#8b949e">The Ultimate Lua Script for Cherax</text>
-  
-  <!-- Badges -->
-  <g transform="translate(420, 480)">
-    <rect width="120" height="36" rx="18" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="60" y="24" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#10b981">GTA V</text>
+  <g transform="translate(560, 450)">
+    <rect width="80" height="28" rx="14" fill="#21262d"/>
+    <text x="40" y="19" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#10b981">Cherax</text>
   </g>
-  <g transform="translate(560, 480)">
-    <rect width="120" height="36" rx="18" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="60" y="24" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#10b981">Cherax</text>
+  <g transform="translate(650, 450)">
+    <rect width="80" height="28" rx="14" fill="#21262d"/>
+    <text x="40" y="19" text-anchor="middle" font-family="Inter, sans-serif" font-size="12" font-weight="500" fill="#10b981">Free</text>
   </g>
-  <g transform="translate(700, 480)">
-    <rect width="120" height="36" rx="18" fill="#161b22" stroke="#30363d" stroke-width="1"/>
-    <text x="60" y="24" text-anchor="middle" font-family="Inter, sans-serif" font-size="14" font-weight="500" fill="#10b981">50+ Features</text>
-  </g>
-  
-  <!-- Domain -->
-  <text x="600" y="580" text-anchor="middle" font-family="Inter, sans-serif" font-size="20" font-weight="500" fill="#484f58">bunnyutils.xyz</text>
 </svg>

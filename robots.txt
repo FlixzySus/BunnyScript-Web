@@ -1,6 +1,4 @@
-# robots.txt for bunnyutils.xyz
 User-agent: *
 Allow: /
 
-# Sitemap
 Sitemap: https://bunnyutils.xyz/sitemap.xml

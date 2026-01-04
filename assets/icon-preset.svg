@@ -1,17 +1,13 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
   <defs>
-    <linearGradient id="presetGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" style="stop-color:#10b981"/>
-      <stop offset="100%" style="stop-color:#06d6a0"/>
+    <linearGradient id="pGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981"/>
+      <stop offset="100%" stop-color="#34d399"/>
     </linearGradient>
   </defs>
-  <!-- Folder Back -->
-  <path d="M6 14v24a4 4 0 004 4h28a4 4 0 004-4V18a4 4 0 00-4-4H24l-4-6H10a4 4 0 00-4 6z" fill="#161b22" stroke="url(#presetGrad)" stroke-width="2"/>
-  <!-- Save Icon -->
-  <rect x="18" y="22" width="12" height="12" rx="2" fill="url(#presetGrad)"/>
-  <path d="M20 22v4h8v-4" fill="#0d1117"/>
-  <rect x="22" y="28" width="4" height="4" fill="#0d1117"/>
-  <!-- Plus indicator -->
-  <circle cx="38" cy="12" r="6" fill="url(#presetGrad)"/>
-  <path d="M38 9v6M35 12h6" stroke="#0d1117" stroke-width="2" stroke-linecap="round"/>
+  <rect x="10" y="8" width="28" height="32" rx="3" fill="none" stroke="url(#pGrad)" stroke-width="2"/>
+  <path d="M16 8v10h16V8" fill="none" stroke="url(#pGrad)" stroke-width="2"/>
+  <rect x="26" y="11" width="4" height="5" rx="1" fill="url(#pGrad)"/>
+  <rect x="16" y="24" width="16" height="2" rx="1" fill="url(#pGrad)" opacity="0.5"/>
+  <rect x="16" y="30" width="10" height="2" rx="1" fill="url(#pGrad)" opacity="0.5"/>
 </svg>
