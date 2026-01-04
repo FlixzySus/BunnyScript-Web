@@ -1,5 +1,0 @@
-# Redirect www to non-www
-https://www.bunnyutils.xyz/* https://bunnyutils.xyz/:splat 301
-
-# Handle SPA routing (if needed in future)
-/*  /index.html  200
