@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="iconGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#06d6a0"/>
+    </linearGradient>
+  </defs>
+  <!-- Car Body -->
+  <path d="M8 28h32v8a2 2 0 01-2 2H10a2 2 0 01-2-2v-8z" fill="url(#iconGrad1)"/>
+  <!-- Car Top -->
+  <path d="M12 28l4-10h16l4 10H12z" fill="url(#iconGrad1)" opacity="0.8"/>
+  <!-- Windows -->
+  <path d="M14 27l3-8h14l3 8H14z" fill="#0d1117" opacity="0.6"/>
+  <!-- Left Wheel -->
+  <circle cx="14" cy="36" r="4" fill="#161b22" stroke="url(#iconGrad1)" stroke-width="2"/>
+  <!-- Right Wheel -->
+  <circle cx="34" cy="36" r="4" fill="#161b22" stroke="url(#iconGrad1)" stroke-width="2"/>
+  <!-- Headlights -->
+  <rect x="6" y="30" width="3" height="2" rx="1" fill="#06d6a0"/>
+  <rect x="39" y="30" width="3" height="2" rx="1" fill="#06d6a0"/>
+  <!-- Spawn Effect -->
+  <circle cx="24" cy="12" r="6" fill="none" stroke="url(#iconGrad1)" stroke-width="1.5" stroke-dasharray="3 2" opacity="0.6"/>
+  <path d="M24 6v4M24 14v4M20 12h-4M28 12h4" stroke="url(#iconGrad1)" stroke-width="1.5" stroke-linecap="round" opacity="0.8"/>
+</svg>

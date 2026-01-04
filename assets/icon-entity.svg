@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none">
+  <defs>
+    <linearGradient id="entityGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#10b981"/>
+      <stop offset="100%" style="stop-color:#06d6a0"/>
+    </linearGradient>
+  </defs>
+  <!-- Main character -->
+  <circle cx="24" cy="14" r="8" fill="#161b22" stroke="url(#entityGrad)" stroke-width="2"/>
+  <path d="M14 42V32a10 10 0 0120 0v10" fill="none" stroke="url(#entityGrad)" stroke-width="2"/>
+  <!-- Face -->
+  <circle cx="21" cy="13" r="1.5" fill="url(#entityGrad)"/>
+  <circle cx="27" cy="13" r="1.5" fill="url(#entityGrad)"/>
+  <path d="M21 17c1.5 1.5 4.5 1.5 6 0" stroke="url(#entityGrad)" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+  <!-- Secondary character silhouette -->
+  <circle cx="38" cy="18" r="5" fill="url(#entityGrad)" opacity="0.3"/>
+  <path d="M33 38V32a5 5 0 0110 0v6" fill="none" stroke="url(#entityGrad)" stroke-width="2" opacity="0.3"/>
+  <!-- Sparkle effects -->
+  <path d="M8 10l2-4 2 4-4-2 4 2" stroke="url(#entityGrad)" stroke-width="1" stroke-linecap="round"/>
+  <path d="M40 6l1.5-3 1.5 3-3-1.5 3 1.5" stroke="url(#entityGrad)" stroke-width="1" stroke-linecap="round"/>
+  <!-- Add indicator -->
+  <circle cx="10" cy="36" r="5" fill="url(#entityGrad)"/>
+  <path d="M10 34v4M8 36h4" stroke="#0d1117" stroke-width="1.5" stroke-linecap="round"/>
+</svg>
